@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(225, 0, 255, 0.89);
+}
+i{
+    font-size: 100px;
+    display:inline-block;
+    transform: rotate(150deg);
+    font-size: 150px;
+    color:rgba(255, 255, 255, 0.815)
+}
+body{
+   /* background: rgb(145, 57, 156);*/
+   background: rgba(111, 0, 119, 0.801);
+   background: linear-gradient(90deg, rgba(111, 0, 119, 0.85) 0%, rgba(132, 0, 150, 0.85) 30%, rgba(181, 0, 160, 0.85) 60%, rgba(233, 0, 237, 0.85) 90%);
+}
+
+form{
+    background: white;
+}
+
+h1{
+    font-size: 60px;
+    color: rgba(183, 0, 207, 0.89);
+}
+h2{
+    margin: 20px;
+    color: rgba(183, 0, 207, 0.541);
+    text-align: center;
+    font-size: 30px;
+}
+hr{
+    margin: 20px;
+    border-width: 1px;
+    border-color:rgb(201, 201, 201);
+}
+.agre{
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.agregar{
+    background:rgba(138, 2, 156, 0.89) ;
+    text-align: center;
+    padding: 12px;
+    margin-left:110px;
+    margin-right:110px;
+    border-radius: 7px;
+}
+.btn_agregar{
+    display: inline-block;
+    position: fixed;
+    top: 75%;
+    left: 85%;
+    margin: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background-color: blanchedalmond;
+}
+
+.btn_log{
+    background: rgba(138, 2, 156, 0.89);
+    color:white;
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    border:none;
+}
+.boton_cont{
+    color: white;
+}
+.cont-boton{
+    display: inline-block;
+    padding: 8px 30px 8px 30px;
+    background: rgba(138, 2, 156, 0.89);
+    margin-left: 8%;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+.contContactos{
+    background: white;
+    min-height: 300px;
+    min-width: 380px;
+    max-height: 410px;
+    max-width: 380px;
+    max-height: 420px;
+    max-width: 380px;
+    margin: 40px 30px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.cont_form{
+    margin: 20px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+
+}
+.Cont_p{
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.cont_input{
+    padding: 15px;
+}
+.cont_vacio{
+    background: white;
+    border-radius: 8px;
+    display: inline-block;
+    padding:30px;
+    margin-top: 160px;
+    margin-left:380px;
+}
+.inputLog{
+    width: 100%;
+    height: 45px;
+    border : 2px solid rgba(138, 2, 156, 0.89);
+    border-radius: 7px;
+    outline: none ;
+}
+#contenedor{
+    display: grid;
+    margin-left: 170px;
+    margin-top: 90px;
+    margin-right: 90px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+#cont_text{
+  padding: 50px;
+  padding-right: 60px;
+  padding-top: 60px;
+}
+
+#contRegis{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 60px;
+}
+#plus{
+    color: rgba(138, 2, 156, 0.89); 
+    font-size:50px ;
+    transform:rotate(0deg);
+     padding:14px;
+     padding-left:19px
+}
+#titulo_contactos{
+    margin: 10px;
+    font-size: 40px;
+}
+#register{
+  margin: 20px;
+  
+  text-decoration: none;
+  text-align: center;
+}
+
+.custom-shape-divider-top-1633614564 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-top-1633614898{
+    z-index: -2;
+}
+.custom-shape-divider-top-1633614898 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1633614898 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1633614898 .shape-fill {
+    fill: #f0efef;
+}
+
+.custom-shape-divider-top-1633666759 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -2;
+}
+
+.custom-shape-divider-top-1633666759 svg {
+    position: relative;
+    display: block;
+    width: calc(157% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1633666759 .shape-fill {
+    fill: #ececec;
+}
+
+.btn_agregar:hover{
+    transition: background-color 2s ;
+    background-color: rgb(138, 2, 156);
+}
+#plus:hover{
+    transition: color 2s;
+    color:blanchedalmond;
+}
